@@ -1,0 +1,3 @@
+[submodule "glsl-transition/transitions"]
+	path = glsl-transition/transitions
+	url = https://github.com/glslio/glsl-transitions.git
