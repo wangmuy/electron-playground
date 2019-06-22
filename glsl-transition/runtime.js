@@ -5,8 +5,10 @@ var baboon = require("baboon-image");
 var lena = require("lena");
 var createTexture = require("gl-texture2d");
 var createTransition = require("glsl-transition");
-var instance = require("./cube.js")[0];
-// var instance = require("./transitions")[0];
+var trans1 = require("./cube.js");
+var trans2 = require("./transitions"); // length=71
+var transitions = trans1.concat(trans2); // length=72
+var instance = transitions[0];
 
 var transition, from, to;
 var shell = require("gl-now")();
