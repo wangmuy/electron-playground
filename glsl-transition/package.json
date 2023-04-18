@@ -3,7 +3,7 @@
     "version": "0.1.0",
     "main": "main.js",
     "dependencies": {
-        "baboon-image": "^1.0.0",
+        "baboon-image": "^2.1.0",
         "lena": "^1.0.0",
         "gl-now": "^1.4.0",
         "gl-texture2d": "^2.0.8",
